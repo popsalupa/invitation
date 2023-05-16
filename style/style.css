@@ -4,19 +4,23 @@ body {
   max-height: 700px;
 }
 body .name_container {
-  text-align: center;
-  width: 100%;
+  min-width: 350px;
+  max-width: 700px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 body .name_container .flower1 {
   transform-box: fill-box;
-  animation: spin 60s linear infinite;
+  animation: scale 6s linear infinite alternate;
+  animation-direction: alternate;
   transform-origin: 50% 50%;
 }
-@keyframes spin {
+@keyframes scale {
   0% {
-    transform: rotate(0deg);
+    transform: scale(0.9);
   }
   100% {
-    transform: rotate(360deg);
+    transform: scale(1);
   }
 }/*# sourceMappingURL=style.css.map */
