@@ -11,16 +11,32 @@ body .name_container {
   margin-right: auto;
 }
 body .name_container .flower1 {
+  -ms-transform-box: fill-box;
+  -webkit-transform-box: fill-box;
   transform-box: fill-box;
   animation: scale 6s linear infinite alternate;
   animation-direction: alternate;
   transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -webkit-transform-origin: 50% 50%;
 }
 @keyframes scale {
+  0% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
   0% {
     -webkit-transform: scale(0.9);
   }
   100% {
     -webkit-transform: scale(1);
+  }
+  0% {
+    -ms-transform: scale(0.9);
+  }
+  100% {
+    -ms-transform: scale(1);
   }
 }/*# sourceMappingURL=style.css.map */
