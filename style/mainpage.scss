@@ -54,8 +54,11 @@ body {
             text-align: center;
             background: #FFF7DD;
    
-            .background-img {
+            img {
                 width: 100%;
+            }
+
+            .background-img {
                 position: absolute;
                 object-fit: contain;
                 opacity: 0.6;
