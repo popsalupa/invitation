@@ -48,8 +48,10 @@ body {
   background: #FFF7DD;
 }
 .header-container .background-img {
+  width: 100%;
   position: absolute;
-  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
   opacity: 0.6;
 }
 .header-container .inventing-text {

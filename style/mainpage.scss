@@ -55,9 +55,9 @@ body {
             background: #FFF7DD;
    
             .background-img {
+                width: 100%;
                 position: absolute;
-                // object-fit: cover;
-                height: auto;
+                object-fit: contain;
                 opacity: 0.6;
                 }
 
