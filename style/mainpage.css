@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair:wght@300&display=swap");
+* {
+  max-width: 1200px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+body {
+  background: #D9D9D9;
+}
+
+.container {
+  max-width: 1200px;
+  background-color: #FFFAE9;
+  border: solid 1px #FFE1BE;
+  border-radius: 30px 30px 0px 0px;
+  display: flex;
+}
+.container .hamburger {
+  margin-right: 30px;
+  margin: 10px;
+  border-color: #CDBD79;
+}
+.container .hamburger .btn_icon {
+  background-image: url(hamburger-lg-svgrepo-com.png);
+}
+.container li {
+  border: solid #CDBD79 1px;
+  padding: 0px 20px;
+  margin: 10px 10px 10px 0px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.header-container {
+  width: 100%;
+  position: sticky;
+  max-width: 1200px;
+  max-height: 700px;
+  margin-top: 0px;
+  text-align: center;
+  background: #FFF7DD;
+}
+.header-container .inventing-text {
+  max-width: 670px;
+  font-family: "Playfair", serif;
+  color: black;
+  margin-top: 3em;
+}
+.header-container .dimakaty {
+  max-width: 500px;
+  margin: 0px 20px;
+  margin-right: auto;
+  margin-left: auto;
+}/*# sourceMappingURL=mainpage.css.map */
