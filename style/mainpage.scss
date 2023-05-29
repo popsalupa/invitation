@@ -49,10 +49,10 @@ body {
             width: 100%;
             position: sticky;
             max-width: 1200px;
-            max-height: 700px;
+            // max-height: 700px;
             margin-top: 0px;
             text-align: center;
-            background: #FFF7DD;
+            background: linear-gradient(180deg, #FFF7DD 0%, #F1FFFB 100%);
    
             img {
                 width: 100%;
@@ -88,5 +88,42 @@ body {
                     font-size: calc(12px + 10 * (100vw / 1200));
                     line-height: 70%;
                 }
+                
+                .article-text {
+                    display: flexbox;
+                    flex-direction: column;
+                    max-width: 1000px;
+
+                    .article {
+                        margin-top: 50px;
+                        font-family: 'Playfair', serif;
+                        &::after{
+                            content: '';
+                            display: block;
+                            max-width: 670px;
+                            margin-left: auto;
+                            margin-right: auto;
+                            height: 1px;
+                            background: black;
+                        }
+                    }
+
+                    .object-first {
+                        display: flexbox;
+                        flex-direction: row;
+                        // justify-content: space-between;
+                        max-width: 700px;
+                            .photo-place {
+                                max-width: 400px;
+                                max-height: 250px;
+                                border-radius: 30px;
+                            }
+
+                           
+                    }
+                            .map {
+                                max-width: 600px;
+                                border-radius: 30px;
+                            }
+                }
         }
-       

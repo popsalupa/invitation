@@ -42,10 +42,9 @@ body {
   width: 100%;
   position: sticky;
   max-width: 1200px;
-  max-height: 700px;
   margin-top: 0px;
   text-align: center;
-  background: #FFF7DD;
+  background: linear-gradient(180deg, #FFF7DD 0%, #F1FFFB 100%);
 }
 .header-container img {
   width: 100%;
@@ -77,4 +76,36 @@ body {
   font-family: "Playfair", serif;
   font-size: calc(12px + 0.8333333333vw);
   line-height: 70%;
+}
+.header-container .article-text {
+  display: flexbox;
+  flex-direction: column;
+  max-width: 1000px;
+}
+.header-container .article-text .article {
+  margin-top: 50px;
+  font-family: "Playfair", serif;
+}
+.header-container .article-text .article::after {
+  content: "";
+  display: block;
+  max-width: 670px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1px;
+  background: black;
+}
+.header-container .article-text .object-first {
+  display: flexbox;
+  flex-direction: row;
+  max-width: 700px;
+}
+.header-container .article-text .object-first .photo-place {
+  max-width: 400px;
+  max-height: 250px;
+  border-radius: 30px;
+}
+.header-container .article-text .map {
+  max-width: 600px;
+  border-radius: 30px;
 }/*# sourceMappingURL=mainpage.css.map */
