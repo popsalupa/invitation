@@ -93,9 +93,11 @@ body {
                     display: flexbox;
                     flex-direction: column;
                     max-width: 1000px;
+                    line-height: 20px;
+
 
                     .article {
-                        margin-top: 50px;
+                        margin-top: 70px;
                         font-family: 'Playfair', serif;
                         &::after{
                             content: '';
@@ -107,7 +109,7 @@ body {
                             background: black;
                         }
                     }
-
+                   
                     .object-first {
                         display: flexbox;
                         flex-direction: row;
@@ -125,5 +127,12 @@ body {
                                 max-width: 600px;
                                 border-radius: 30px;
                             }
+                            .photo-gallary {
+                                max-width: 900px;
+                                max-height: 500px;
+                                border-radius: 30px;
+                                
+                            }
+                            
                 }
         }
