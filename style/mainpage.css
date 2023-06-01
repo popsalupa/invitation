@@ -116,6 +116,16 @@ body {
   max-height: 500px;
   border-radius: 30px;
 }
+.header-container .social-container {
+  max-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-container .social-container .social {
+  max-width: 70px;
+  max-height: 70px;
+}
 
 .preloader {
   /*фиксированное позиционирование*/
