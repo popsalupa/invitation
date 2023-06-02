@@ -62,12 +62,22 @@ body {
             img {
                 width: 100%;
             }
+            a {
+              text-decoration: none;
+            }
 
             .background-img {
                 position: absolute;
                 object-fit: contain;
                 opacity: 0.6;
                 }
+            .footer-img {
+              // width: 100%;
+              display: table;
+              margin: 0;
+              padding: 0;
+              vertical-align: bottom;
+            }
 
                 .inventing-text {
                     max-width: 680px;
@@ -115,7 +125,8 @@ body {
                         }
                     }
                    
-                    .object-first {
+                    // исправить высоту на моб устройствах
+                    .our-party {
                         display: flexbox;
                         flex-direction: row;
                         // justify-content: space-between;
@@ -132,6 +143,7 @@ body {
                                 max-width: 600px;
                                 border-radius: 30px;
                             }
+                            // исправить высоту на моб устройствах
                             .photo-gallary {
                                 max-width: 900px;
                                 max-height: 500px;
