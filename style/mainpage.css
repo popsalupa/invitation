@@ -38,6 +38,9 @@ body {
   text-align: center;
   border-radius: 30px;
 }
+.container li:hover {
+  background: #e9d992;
+}
 
 .header-container {
   width: 100%;
@@ -118,6 +121,7 @@ body {
 }
 .header-container .social-container {
   max-width: 300px;
+  margin-bottom: 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -126,18 +130,19 @@ body {
   max-width: 70px;
   max-height: 70px;
 }
+.header-container .social-container .social:hover {
+  transform: translateY(-10px);
+  border-radius: 10px;
+  background-color: #FFF7DD;
+}
 
 .preloader {
-  /*фиксированное позиционирование*/
   position: fixed;
-  /* координаты положения */
   left: 0;
   top: 0;
   right: 0;
   bottom: 0;
-  /* фоновый цвет элемента */
   background: #000000;
-  /* размещаем блок над всеми элементами на странице (это значение должно быть больше, чем у любого другого позиционированного элемента на странице) */
   z-index: 1001;
 }
 
@@ -191,4 +196,41 @@ body {
 
 .loaded .preloader {
   display: none;
+}
+
+.timer {
+  display: flex;
+  max-width: 500px;
+  margin-bottom: 50px;
+  padding-top: 30px;
+  border: solid #FFE1BE 1px;
+  border-radius: 20px;
+  background-color: #FFF7DD;
+}
+.timer .timer__items {
+  display: flex;
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+.timer .timer__item {
+  position: relative;
+  min-width: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 35px;
+  text-align: center;
+}
+.timer .timer__item::before {
+  content: attr(data-title);
+  margin-left: 10px;
+  margin-top: 10px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  font-size: 14px;
+}
+.timer .timer__item:not(:last-child)::after {
+  content: ":";
+  position: absolute;
+  right: -5px;
 }/*# sourceMappingURL=mainpage.css.map */
