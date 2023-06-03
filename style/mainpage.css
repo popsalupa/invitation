@@ -74,7 +74,7 @@ body {
   font-family: "Playfair", serif;
   color: black;
   margin-top: 3em;
-  font-size: calc(14px + 0.8333333333vw);
+  font-size: calc(12px + 0.8333333333vw);
 }
 .header-container .dimakaty {
   max-width: 500px;
@@ -116,7 +116,7 @@ body {
 }
 .header-container .article-text .our-party .photo-place {
   max-width: 400px;
-  max-height: 250px;
+  max-height: 220px;
   border-radius: 30px;
 }
 .header-container .article-text .map {
