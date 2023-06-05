@@ -1,28 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+
+
 body {
-    background-color: #fff9e4;
-    // background-image: url(img/background.png);
-    // background-repeat: no-repeat;
-    // background-size: 100%;
-    max-height: 700px;
-    // object-fit: cover;
+    // background-color: #fff9e4;
+    background-color: #2c2c2ce5;
+    // max-height: 700px;
+    object-fit: cover;
+   
+
+
    
     .name_container {
+        display: flexbox;
+        flex-direction: row;
         min-width: 350px;
-        max-width: 700px;
-        margin-top: 40px;
-        margin-left: auto;
+        max-width: 1200px;
+        min-height: 600px;
+        margin-top: 20px;
         margin-right: auto;
-        .flower1 {
-            -ms-transform-box: fill-box;
-            -webkit-transform-box: fill-box;
-            transform-box: fill-box;
-            animation: scale 6s linear infinite alternate;
-            animation-direction: alternate;
-            transform-origin:50% 50%;
-            -ms-transform-origin:50% 50%;
-            -webkit-transform-origin:50% 50%;
-        }
+        margin-left: auto;
+        // overflow: visible;
+        border: solid 2px #f4e5ae;
+        border-radius: 20px;
+        background-image: url(img/background.png);
+        background-repeat: no-repeat;
+        background-color: #ffef85;
+        background-size: cover;
+        
+    }
+    
+        
+            .name {
+                margin-top: 10%;
+                font-size: 90px;
+                font-family: 'Comforter', cursive;
+                line-height: 0.7em;
+                text-align: center;
+                color: #000000;
+     
+                animation: scale 3s linear infinite alternate;
+                animation-direction: alternate-reverse;
+                transform-origin:50% 50%;
+                -webkit-transform-origin:50% 50%;
+                -moz-transform-origin:50% 50%;
+            }
+
+          
+    
+            .flowers {
+                position: absolute;
+                width: 30%;
+                border-radius: 0px 20px 0px 0px;
+                
+            }
+
         @keyframes scale {
             0% {
                 transform: scale(0.9);
@@ -45,7 +76,7 @@ body {
         }
      }   
     
-} 
+
 
      .preloader {
         position: fixed;

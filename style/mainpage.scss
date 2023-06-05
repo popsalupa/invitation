@@ -55,6 +55,7 @@ body {
             position: sticky;
             max-width: 1200px;
             margin-top: 0px;
+            border-radius: 0px 0px 30px 30px;
             text-align: center;
             background: linear-gradient(180deg, #FFF7DD 0%, #F1FFFB 100%);
             
@@ -85,7 +86,7 @@ body {
                     font-family: 'Playfair', serif;
                     color: black;
                     margin-top: 3em;
-                    font-size: calc(12px + 10 * (100vw / 1200));
+                    font-size: calc(17px + 10 * (100vw / 1200));
                 }
 
                 .dimakaty {
