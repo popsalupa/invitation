@@ -22,12 +22,16 @@ body .name_container {
   background-size: cover;
 }
 body .name {
+  position: absolute;
   margin-top: 10%;
-  font-size: 90px;
+  margin-left: 10%;
+  margin-right: 20%;
+  font-size: calc(70px + 0.8333333333vw);
   font-family: "Comforter", cursive;
   line-height: 0.7em;
   text-align: center;
   color: #000000;
+  text-shadow: rgb(234, 168, 46) 1px 0 10px;
   animation: scale 3s linear infinite alternate;
   animation-direction: alternate-reverse;
   transform-origin: 50% 50%;
@@ -35,8 +39,11 @@ body .name {
   -moz-transform-origin: 50% 50%;
 }
 body .flowers {
-  position: absolute;
-  width: 30%;
+  overflow: hidden;
+  float: right;
+  align-items: top;
+  width: 60%;
+  max-width: 400px;
   border-radius: 0px 20px 0px 0px;
 }
 @keyframes scale {

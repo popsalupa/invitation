@@ -31,12 +31,17 @@ body {
     
         
             .name {
+                position: absolute;
                 margin-top: 10%;
-                font-size: 90px;
+                margin-left: 10%;
+                margin-right: 20%;
+                // overflow: hidden;
+                font-size: calc(70px + 10 * (100vw / 1200));
                 font-family: 'Comforter', cursive;
                 line-height: 0.7em;
                 text-align: center;
                 color: #000000;
+                text-shadow: rgb(234, 168, 46) 1px 0 10px;
      
                 animation: scale 3s linear infinite alternate;
                 animation-direction: alternate-reverse;
@@ -48,8 +53,12 @@ body {
           
     
             .flowers {
-                position: absolute;
-                width: 30%;
+                // position: absolute;
+                overflow: hidden;
+                float: right;
+                align-items: top;
+                width: 60%;
+                max-width: 400px;
                 border-radius: 0px 20px 0px 0px;
                 
             }
@@ -140,4 +149,9 @@ body {
       
       .loaded .preloader {
         display: none;
+      }
+
+
+      .secret {
+        
       }
